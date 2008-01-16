@@ -1,14 +1,14 @@
 Package: R.lang
-Version: 0.20
-Date: 2006-05-09
+Version: 0.21
+Date: 2008-01-15
 Title: [R] Class Library - Basic classes
 Author: Henrik Bengtsson <henrikb@braju.com>
 Maintainer: Henrik Bengtsson <henrikb@braju.com>
 Depends: R (>= 2.0.0), R.oo, R.utils
-Description: This library is mainly for testing R.oo.
+Description: This library is mainly for testing R.oo. (This package is deprecated but kept available because it is used by other package, e.g. aroma)
 License: LGPL version 2.1 or newer (the releases)
 URL: http://www.braju.com/R/
-ContribURL: http://www.maths.lth.se/help/R/ 
-DevelURL: http://www.maths.lth.se/help/R/
+ContribURL: http://www.braju.com/R/
+DevelURL: http://www.braju.com/R/
 LazyLoad: TRUE
-Packaged: Mon Apr  3 17:57:01 2006; hb
+

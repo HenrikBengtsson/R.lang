@@ -1,6 +1,18 @@
 Package: R.lang
 ===============
 
+Version: 0.21 [2008-01-15]
+o BUG FIX: The Windows binaries for R.lang v0.20 that was built
+  on R v2.5.0 gave "Error in nchar.default(name) :
+  2 arguments passed to .Internal(nchar) which requires 3
+  Error in library(R.lang) : .First.lib failed for 'R.lang'"
+  when loaded on R v2.6.0.  In order to keep backward 
+  compatibility to R v2.0.0 (does any need that?), I did
+  a workaround that I think works.
+o Package pass R CMD check on R v2.6.1 and R v2.7.0 devel.
+  No tests and no promises are done for version before that.
+
+
 Version: 0.20 [2006-05-09]
 o Package pass R CMD check on R v2.5.0.
 
